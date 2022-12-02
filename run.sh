@@ -7,5 +7,5 @@ mkdir -p $OUT_DIR
 DAY=$1
 
 erlc -o $OUT_DIR d${DAY}.erl
-erl -pa $OUTDIR -noshell -s d${DAY} run -s init stop
+erl -pa $OUT_DIR -noshell -s d${DAY} run -s init stop
 
