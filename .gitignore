@@ -1,4 +1,3 @@
 out
 *.beam
 erl_crash.dump
-*.txt
